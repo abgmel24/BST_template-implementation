@@ -19,5 +19,4 @@ int main(int argc, char** argv) {
 
     t->remove(12);
     t->printTree();
-    
 }
