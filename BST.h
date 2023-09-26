@@ -91,19 +91,6 @@ void BST<T>::insert(T data) {
 
 template <class T>
 TreeNode<T>* BST<T>::remove(T data) {
-    //first, find the node to delete
-    //0 children
-        //just move on
-    //1 child
-        //child is left child
-            //child replaces node
-            //child is node's parent's left child
-        //child is right child
-            //child is node's parent's right child
-    //2 children
-        //
-
-
     if(isEmpty()) {
         return NULL;
     }
